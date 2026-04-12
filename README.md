@@ -82,62 +82,110 @@ A high‑performance, lightweight PHP framework engineered for **microservices**
 
 ```bash
 composer create-project zenithframework/skeleton my-app
+```
 
-✅ Blazing‑fast routing with PSR‑7 & PSR‑15 compatibility
+---
 
-✅ Native async support (Swoole / OpenSwoole)
+### 📈 GitHub Stats & Visuals
 
-✅ Multilingual ready via lang.zenithframework.com
+<p align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=shamimwhois&show_icons=true&theme=radical&hide_border=true&border_radius=15&count_private=true&include_all_commits=true" alt="GitHub Stats" width="380" />
+      </td>
+      <td align="center">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shamimwhois&layout=compact&theme=radical&hide_border=true&border_radius=15&size=120&count_private=true" alt="Top Languages" width="380" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=shamimwhois&theme=radical&hide_border=true&border_radius=15" alt="GitHub Streak" width="380" />
+      </td>
+      <td align="center">
+        <img src="https://github-profile-trophy.vercel.app/?username=shamimwhois&theme=radical&column=4&margin-w=15&margin-h=15&no-bg=true&rank=-C" alt="GitHub Trophies" width="380" />
+      </td>
+    </tr>
+  </table>
+</p>
 
-✅ Production‑proven across several SaaS platforms
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=shamimwhois&limit=5&theme=radical&hide_border=true&border_radius=15" alt="Contributor Stats" width="700" />
+</p>
 
-🤖 Laravel AI & MCP Ecosystem
-Package	Account	Description
-laravel-gpt	@laravelgpt	OpenAI GPT‑4o / o1 integration with Assistants API v2, streaming, and prompt caching
-Laravel-Local-LLM-SDK	@shamimlaravel	Enterprise‑grade integration with Ollama & LM Studio
-laravel13-fullstack-mcp-server	@gsmui	Full‑stack MCP server implementation for Laravel 13
-liminal	@pkgmcp	Build and preview Laravel applications entirely in‑browser
-📦 Laravel Infrastructure Packages
-Package	Account	Description
-tgsdk	@shamimlaravel	Laravel filesystem driver backed by Telegram channels (async uploads via Pyrogram)
-youtube-cloud-storage	@shamimlaravel	Transform YouTube into unlimited cloud storage using steganography
-laravel-cms-installer	@shamimstack	Multi‑step web wizard for CMS auto‑installation with license validation
-wwwpay	@shamimlaravel	Lightweight payment processing library for Laravel
-🔐 Security & OSINT Research
-Project	Account	Description
-WhatsApp-extension-manipulation-PoC	@ufstool	Android malware PoC via file extension manipulation in WhatsApp
-cursor-free-vip	@ufstool	Cursor AI machine‑ID reset and Pro feature bypass (educational research)
-sass-product-license-manager	@gsmui	SaaS product licensing and activation management
-📊 GitHub Analytics
-<p align="center"> <a href="https://github.com/shamimwhois"> <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shamimwhois&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" /> <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shamimwhois&layout=compact&theme=radical&hide_border=true&langs_count=8&hide=javascript,html,css" alt="Top Languages" /> </a> </p><p align="center"> <a href="https://git.io/streak-stats"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=shamimwhois&theme=radical&hide_border=true" alt="GitHub Streak" /> </a> </p>
-🏆 GitHub Trophies
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"> <img src="https://github-profile-trophy.vercel.app/?username=shamimwhois&theme=radical&no-frame=true&no-bg=true&margin-w=15&column=7" alt="GitHub Trophies" /> </a> </p>
-🤝 Let's Connect
-I’m always open to discussing Laravel architecture, PHP performance, AI integration, or open‑source collaborations.
-Whether you’re a recruiter, a fellow developer, or just want to say hi—feel free to reach out.
+<p align="center">
+  <a href="https://github.com/shamimwhois?tab=activity">
+    <img src="https://ghchart.rshah.org/0e75b6/shamimwhois" alt="Contribution Graph" width="800" />
+  </a>
+</p>
 
-<p align="center"> <a href="mailto:shamimstack@gmail.com"><img src="https://img.shields.io/badge/shamimstack@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email 1"/></a> <a href="mailto:shamimwhois@gmail.com"><img src="https://img.shields.io/badge/shamimwhois@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email 2"/></a> <a href="https://shamim.dev"><img src="https://img.shields.io/badge/shamim.dev-000000?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Website"/></a> <a href="https://github.com/shamimwhois"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a> <!-- Add LinkedIn/Twitter if available --> </p>
-🌟 Profile Network Map
-shamimwhois (Primary)
+---
 
-laravelgpt → AI, MCP, GPT integrations
+### 🚀 Featured Projects (Continued)
 
-shamimlaravel → Laravel packages & SDKs
+#### 🤖 [Laravel AI & MCP Ecosystem](https://github.com/shamimwhois)
 
-shamimstack → Laravel infrastructure & CMS
+| Package | Account | Description |
+| :--- | :--- | :--- |
+| **laravel-gpt** | @laravelgpt | OpenAI GPT-4o / o1 integration with Assistants API v2 & Prompt Caching |
+| **Laravel-Local-LLM-SDK** | @shamimlaravel | Enterprise-grade integration for Ollama & LM Studio |
+| **laravel13-mcp-server** | @gsmui | Full-stack MCP server implementation for **Laravel 13** |
+| **liminal** | @pkgmcp | Build and preview Laravel applications entirely in-browser |
 
-gsmui → GSM tools, UI libraries, MCP
+---
 
-ufstool → Security research, OSINT
+### 📦 Laravel Infrastructure Packages
 
-pkgmcp → MCP protocol, Liminal
+| Package | Account | Description |
+| :--- | :--- | :--- |
+| **tgsdk** | @shamimlaravel | Laravel filesystem driver backed by Telegram channels (Async via Pyrogram) |
+| **youtube-cloud-storage** | @shamimlaravel | Transform YouTube into unlimited cloud storage using steganography |
+| **laravel-cms-installer** | @shamimstack | Multi-step web wizard for CMS auto-installation with license validation |
+| **wwwpay** | @shamimlaravel | Lightweight payment processing library for Laravel |
 
-gsmsdk → GSM/SMS SDK development
+---
 
-GSMcode → Embedded GSM, firmware
+### 🔐 Security & OSINT Research
 
-shamimloop → Experimental & capstone projects
+| Repository | Account | Description |
+| :--- | :--- | :--- |
+| **WhatsApp-extension-manipulation-PoC** | @ufstool | Android malware PoC via file extension manipulation |
+| **cursor-free-vip** | @ufstool | Cursor AI machine-ID reset and Pro feature bypass (Educational Research) |
+| **sass-product-license-manager** | @gsmui | SaaS product licensing and activation management system |
 
-<p align="center"> <i>“Code is poetry, but clean architecture is prose. AI is the next chapter.”</i> </p> ```
+---
+
+### 🌐 Profile Network Map
+
+| Prefix | Account | Focus Area |
+| :--- | :--- | :--- |
+| **shamimlaravel** | [@shamimlaravel](https://github.com/shamimlaravel) | Laravel Packages & SDKs |
+| **shamimstack** | [@shamimstack](https://github.com/shamimstack) | Laravel Infrastructure & CMS |
+| **gsmui** | [@gsmui](https://github.com/gsmui) | GSM Tools, UI Libraries, & MCP |
+| **ufstool** | [@ufstool](https://github.com/ufstool) | Security Research & OSINT |
+| **pkgmcp** | [@pkgmcp](https://github.com/pkgmcp) | MCP Protocol & Liminal |
+| **gsmsdk** | [@gsmsdk](https://github.com/gsmsdk) | GSM/SMS SDK Development |
+
+---
+
+### 🤝 Let's Connect
+
+I'm always open to discussing **Laravel architecture**, **PHP 8.4+ performance**, **AI integration**, or open-source collaborations. Whether you're a recruiter, a fellow developer, or just want to say hi—feel free to reach out.
+
+<p align="center">
+  <a href="mailto:shamimstack@gmail.com">
+    <img src="https://img.shields.io/badge/shamimstack@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://shamim.dev">
+    <img src="https://img.shields.io/badge/shamim.dev-0A0A0A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://github.com/shamimwhois">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
+
+<p align="center">
+  <i>"Code is poetry, but clean architecture is prose. AI is the next chapter."</i>
+</p>
 
 
