@@ -1,78 +1,62 @@
-# Shamim Hossain
-
-### Pure PHP Developer · Laravel Architect · Creator of Zenith Framework
-
-[![Website](https://img.shields.io/badge/shamim.dev-000000?style=for-the-badge&logo=aboutdotme&logoColor=white)](https://shamim.dev)
-[![Zenith Framework](https://img.shields.io/badge/Zenith_Framework-0B1120?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDJMMiA3bDEwIDUgMTAtNS0xMC01em0wIDcuNUw0IDdsOC00IDggNC04IDQuNXpNMiAxMmwxMCA1IDEwLTV2MTBsLTEwIDUtMTAtNVYxMnoiLz48L3N2Zz4=)](https://zenithframework.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shamimstack@gmail.com)
-
----
-
-I craft high‑performance backend systems, elegant APIs, and robust web applications using **pure PHP**, the **Laravel** ecosystem, and my own lightweight **Zenith Framework**. My focus is on clean architecture, maintainable code, and solving real business problems.
-
----
-
-## 🌐 Portfolio & Contact
-
-- **Primary Domain:** [shamim.dev](https://shamim.dev)
-- **All Domains:** `shamim.uk` · `shamimstack.com` · `shamimwhois.com` · `shamimhossain.com` · `shamimcoder.com` · `shamim.it` · `shamimhossain.dev` · `shamimdev.dev`
-- **Zenith Framework:** [zenithframework.com](https://zenithframework.com) · [lang.zenithframework.com](https://lang.zenithframework.com)
-- **Email:** `shamimstack@gmail.com` · `shamimwhois@gmail.com`
-
----
-
-## 🧰 Technical Expertise
-
-**Languages & Core**
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Zenith](https://img.shields.io/badge/Zenith-1B2A4A?style=flat-square)
-
-**Databases & Caching**
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**Tools & Workflow**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![PHPUnit](https://img.shields.io/badge/PHPUnit-3C3C3C?style=flat-square&logo=php&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
----
-
-## 🚀 Notable Projects
-
-### [Zenith Framework](https://github.com/shamimwhois/zenith) *(Creator & Maintainer)*
-A high‑performance, lightweight PHP framework designed for microservices and modern web applications.  
-- **Features:** Fast routing, PSR‑7 compatibility, native async support, and multilingual capabilities (`lang.zenithframework.com`).  
-- **Status:** Active development — used in production by several SaaS platforms.
-
-### [Laravel Packages & Tools](https://github.com/shamimwhois?tab=repositories&q=&type=&language=php&sort=)
-A collection of open‑source Laravel packages focusing on:
-- API response standardization
-- Advanced query filtering
-- Multi‑tenant architecture helpers
-
----
-
-## 📊 GitHub Activity
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=0E75B6&center=true&vCenter=true&width=600&lines=Shamim+Hossain;Pure+PHP+Developer;Laravel+Architect;Creator+of+Zenith+Framework" alt="Typing SVG" />
+</h1>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shamimwhois&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shamimwhois&layout=compact&theme=default&hide_border=true&langs_count=6&hide=javascript,html,css" alt="Top Languages" height="165" />
+  <a href="https://shamim.dev"><img src="https://img.shields.io/badge/shamim.dev-0A0A0A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Primary Website"/></a>
+  <a href="https://zenithframework.com"><img src="https://img.shields.io/badge/Zenith_Framework-1B2A4A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDJMMiA3bDEwIDUgMTAtNS0xMC01em0wIDcuNUw0IDdsOC00IDggNC04IDQuNXpNMiAxMmwxMCA1IDEwLTV2MTBsLTEwIDUtMTAtNVYxMnoiLz48L3N2Zz4=" alt="Zenith Framework"/></a>
+  <a href="mailto:shamimstack@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shamimwhois&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
+  <a href="https://github.com/shamimwhois?tab=followers"><img src="https://img.shields.io/github/followers/shamimwhois?label=Followers&style=social" alt="GitHub followers" /></a>
 </p>
 
 ---
 
-## 🤝 Let's Connect
+### 👨‍💻 About Me
 
-Whether you need a **Laravel consultant**, want to **contribute to Zenith**, or have a **PHP challenge**, feel free to reach out.
+I architect and build **high‑performance backend systems**, elegant **RESTful & GraphQL APIs**, and scalable web applications using **pure PHP**, the **Laravel ecosystem**, and my own lightweight **Zenith Framework**.  
+I believe in **clean architecture**, **maintainable code**, and solving real‑world business challenges with precision.
 
-- **Email:** [shamimstack@gmail.com](mailto:shamimstack@gmail.com) · [shamimwhois@gmail.com](mailto:shamimwhois@gmail.com)
-- **Primary Website:** [shamim.dev](https://shamim.dev)
-- **LinkedIn / X / GitHub:** *(Replace with actual profile links if desired)*
+- 🔭 I’m currently working on: **Zenith Framework v2** & enterprise Laravel solutions  
+- 🌱 I’m deepening my knowledge in: **Swoole**, **OpenSwoole**, and **async PHP**  
+- 💬 Ask me about: **PHP internals**, **Laravel performance**, **Framework design**  
+- 📫 How to reach me: **shamimstack@gmail.com** · **shamimwhois@gmail.com**  
+- 🌐 Portfolio & Domains: [shamim.dev](https://shamim.dev) · [shamim.uk](https://shamim.uk) · [shamimstack.com](https://shamimstack.com) · [shamimwhois.com](https://shamimwhois.com) · [shamimhossain.com](https://shamimhossain.com) · [shamimcoder.com](https://shamimcoder.com) · [shamim.it](https://shamim.it) · [shamimhossain.dev](https://shamimhossain.dev) · [shamimdev.dev](https://shamimdev.dev) · [shamimhossain.com.bd](https://shamimhossain.com.bd)  
+- 🧪 Zenith Framework: [zenithframework.com](https://zenithframework.com) · [lang.zenithframework.com](https://lang.zenithframework.com) · [GitHub Repo](https://github.com/ZenithFramework)
 
 ---
 
-*“Code is poetry, but clean architecture is prose.”*
+### 🛠️ Tech Stack & Tools
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/Zenith-1B2A4A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDJMMiA3bDEwIDUgMTAtNS0xMC01em0wIDcuNUw0IDdsOC00IDggNC04IDQuNXpNMiAxMmwxMCA1IDEwLTV2MTBsLTEwIDUtMTAtNVYxMnoiLz48L3N2Zz4=" alt="Zenith Framework" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/PHPUnit-3C3C3C?style=for-the-badge&logo=php&logoColor=white" alt="PHPUnit" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+</p>
+
+---
+
+### 🚀 Featured Projects
+
+#### ⚡ [Zenith Framework](https://github.com/ZenithFramework)
+*Creator & Maintainer | [zenithframework.com](https://zenithframework.com)*
+
+A high‑performance, lightweight PHP framework engineered for **microservices**, **modern web apps**, and **async workloads**.
+
+- ✅ **Blazing‑fast routing** with PSR‑7 & PSR‑15 compatibility  
+- ✅ **Native async support** (Swoole / OpenSwoole)  
+- ✅ **Multilingual ready** via `lang.zenithframework.com`  
+- ✅ **Production‑proven** across several SaaS platforms  
+
+```bash
+composer create-project zenithframework/skeleton my-app
