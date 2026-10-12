@@ -47,6 +47,7 @@ I maintain a strategic network of GitHub accounts, each focused on a distinct ar
 | [@GSMWhale](https://github.com/GsmWhale) | GSM Firmware & Embedded | Low‑level GSM codecs and microcontroller projects |
 | [@shamimloop](https://github.com/shamimloop) | Experimental / Labs | Capstone projects, PHP‑heavy prototypes |
 | [@shamimvue](https://github.com/shamimvue) 
+| [@gsmcodex](https://github.com/gsmcodex) 
 
 ---
 
