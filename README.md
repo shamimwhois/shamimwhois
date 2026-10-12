@@ -44,7 +44,7 @@ I maintain a strategic network of GitHub accounts, each focused on a distinct ar
 | [@ufstool](https://github.com/ufstool) | Security & OSINT Research | `WhatsApp-extension-manipulation-PoC`, `cursor-free-vip` |
 | [@pkgmcp](https://github.com/pkgmcp) | MCP Protocol & Liminal | `liminal` |
 | [@gsmsdk](https://github.com/gsmsdk) | GSM/SMS SDKs | SMS modem libraries, AT command tools |
-| [@GSMcode](https://github.com/GSMcode) | GSM Firmware & Embedded | Low‑level GSM codecs and microcontroller projects |
+| [@GSMWhale](https://github.com/GsmWhale) | GSM Firmware & Embedded | Low‑level GSM codecs and microcontroller projects |
 | [@shamimloop](https://github.com/shamimloop) | Experimental / Labs | Capstone projects, PHP‑heavy prototypes |
 
 ---
