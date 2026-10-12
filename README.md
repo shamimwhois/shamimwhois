@@ -46,6 +46,7 @@ I maintain a strategic network of GitHub accounts, each focused on a distinct ar
 | [@gsmsdk](https://github.com/gsmsdk) | GSM/SMS SDKs | SMS modem libraries, AT command tools |
 | [@GSMWhale](https://github.com/GsmWhale) | GSM Firmware & Embedded | Low‑level GSM codecs and microcontroller projects |
 | [@shamimloop](https://github.com/shamimloop) | Experimental / Labs | Capstone projects, PHP‑heavy prototypes |
+| [@shamimloop](https://github.com/shamimvue) 
 
 ---
 
