@@ -167,10 +167,10 @@ PHP internals · Laravel performance · Framework design · API architecture · 
 <table border="0">
   <tr>
     <td align="center" width="50%">
-      <img width="100%" src="https://github-readme-stats.vercel.app/api?username=shamimwhois&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true&include_all_commits=true&rank_icon=github&cache_seconds=1800" alt="GitHub Stats" />
+      <img width="100%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=shamimwhois&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats" />
     </td>
     <td align="center" width="50%">
-      <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shamimwhois&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8&count_private=true&cache_seconds=1800" alt="Top Languages" />
+      <img width="100%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=shamimwhois&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8&count_private=true" alt="Top Languages" />
     </td>
   </tr>
   <tr>
@@ -180,17 +180,17 @@ PHP internals · Laravel performance · Framework design · API architecture · 
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <img width="100%" src="https://github-profile-trophy.vercel.app/?username=shamimwhois&theme=tokyonight&column=7&margin-w=10&margin-h=10&no-bg=true&no-frame=true&rank=-C" alt="GitHub Trophies" />
+      <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shamimwhois&theme=tokyonight" alt="Profile Summary" />
     </td>
   </tr>
 </table>
 
 <br/>
 
-**Contribution Activity**
+**Top Languages, by repository**
 
-<a href="https://github.com/shamimwhois?tab=activity">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=shamimwhois&theme=tokyo-night&hide_border=true&radius=12&area=true&custom_title=Contribution%20Activity" alt="Activity Graph" />
+<a href="https://github.com/shamimwhois?tab=repositories">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shamimwhois&theme=tokyonight" alt="Repos per language" />
 </a>
 
 <br/><br/>
@@ -200,12 +200,6 @@ PHP internals · Laravel performance · Framework design · API architecture · 
 <a href="https://github.com/shamimwhois?tab=activity">
   <img width="100%" src="https://ghchart.rshah.org/0E75B6/shamimwhois" alt="Contribution Graph" />
 </a>
-
-<br/><br/>
-
-**Top Contributed Repositories**
-
-<img width="70%" src="https://github-contributor-stats.vercel.app/api?username=shamimwhois&limit=6&theme=tokyonight&hide_border=true&border_radius=12&combine_all_yearly_contributions=true" alt="Contributor Stats" />
 
 </div>
 
