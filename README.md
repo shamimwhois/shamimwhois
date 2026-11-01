@@ -18,7 +18,7 @@
 
 <!-- Primary links -->
 <p>
-  <a href="https://shamim.dev"><img src="https://img.shields.io/badge/shamim.dev-0A0A0A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Website" /></a>
+  <a href="https://shamimhossain.dev"><img src="https://img.shields.io/badge/shamimhossain.dev-0A0A0A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Website" /></a>
   <a href="https://zenithframework.com"><img src="https://img.shields.io/badge/Zenith_Framework-1B2A4A?style=for-the-badge&logo=php&logoColor=white" alt="Zenith Framework" /></a>
   <a href="mailto:shamimstack@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
@@ -75,8 +75,9 @@ PHP internals · Laravel performance · Framework design · AI SDKs · MCP proto
 **📫 Reach me**
 `shamimstack@gmail.com` · `shamimwhois@gmail.com`
 
-**🌐 Primary domains**
-[shamim.dev](https://shamim.dev) · [shamim.uk](https://shamim.uk) · [shamimwhois.com](https://shamimwhois.com) · [shamim.it](https://shamim.it)
+**🌐 Domains**
+[shamimhossain.dev](https://shamimhossain.dev) · [shamim.uk](https://shamim.uk) · [shamim.it](https://shamim.it)
+[shamim.help](https://shamim.help) · [shamimstack.com](https://shamimstack.com) · [shamimhossain.com.bd](https://shamimhossain.com.bd)
 
     </td>
   </tr>
@@ -332,7 +333,8 @@ I'm always open to discussing **Laravel architecture**, **PHP 8.4+ performance**
 <br/>
 
 <a href="mailto:shamimstack@gmail.com"><img src="https://img.shields.io/badge/shamimstack@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://shamim.dev"><img src="https://img.shields.io/badge/shamim.dev-0A0A0A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Website" /></a>
+<a href="https://shamimhossain.dev"><img src="https://img.shields.io/badge/shamimhossain.dev-0A0A0A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Website" /></a>
+<a href="https://www.shamim.uk"><img src="https://img.shields.io/badge/shamim.uk-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="shamim.uk" /></a>
 <a href="https://github.com/shamimwhois"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
 <br/><br/>
@@ -347,4 +349,9 @@ I'm always open to discussing **Laravel architecture**, **PHP 8.4+ performance**
 <!--
   Note: the LinkedIn / X / DEV profile links use @shamimwhois handles —
   update or remove any that don't exist yet.
+
+  Domains listed in "About Me" are the confirmed set:
+    shamimhossain.dev · shamim.uk · shamim.it
+    shamim.help · shamimstack.com · shamimhossain.com.bd
+  (shamim.dev and shamimwhois.com are NOT owned and must not be listed.)
 -->
