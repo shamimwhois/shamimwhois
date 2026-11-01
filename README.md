@@ -26,7 +26,7 @@ I also specialize in **AI integration**, **OSINT automation**, and **Model Conte
 - 🌱 **Deepening knowledge in:** Swoole · LLM integration · Browser‑based development (Liminal)  
 - 💬 **Ask me about:** PHP internals · Laravel performance · Framework design · AI SDKs · MCP protocol  
 - 📫 **How to reach me:** `shamimstack@gmail.com` · `shamimwhois@gmail.com`  
-- 🌐 **Portfolio & Domains:** [shamim.dev](https://shamim.dev) · [shamim.uk](https://shamim.uk) · [shamimstack.com](https://shamimstack.com) · [shamimwhois.com](https://shamimwhois.com) · [shamimhossain.com](https://shamimhossain.com) · [shamimcoder.com](https://shamimcoder.com) · [shamim.it](https://shamim.it) · [shamimhossain.dev](https://shamimhossain.dev) · [shamimdev.dev](https://shamimdev.dev) · [shamimhossain.com.bd](https://shamimhossain.com.bd)  
+- 🌐 **Portfolio & Domains:** [shamim.dev](https://shamim.it) · [shamim.uk](https://shamim.uk) · [shamimstack.com](https://shamimstack.com) · [shamimwhois.com](https://shamimwhois.com)  · [shamimhossain.dev](https://shamimhossain.dev)  · [shamimhossain.com.bd](https://shamimhossain.com.bd)  
 - 🧪 **Zenith Framework:** [zenithframework.com](https://zenithframework.com) · [lang.zenithframework.com](https://lang.zenithframework.com) · [GitHub Repository](https://github.com/ZenithFramework)
 
 ---
