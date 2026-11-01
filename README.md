@@ -7,11 +7,11 @@
 <div align="center">
 
 <!-- Animated capsule header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0E75B6,50:6B46C1,100:0E75B6&height=200&section=header&text=Shamim%20Hossain&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Pure%20PHP%20Developer%20%26%20Architect%20%7C%20Creator%20of%20Zenith%20Framework&descAlignY=58&descSize=17&animation=fadeIn" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0E75B6,50:6B46C1,100:0E75B6&height=200&section=header&text=Shamim%20Hossain&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Senior%20Fullstack%20Developer%20%26%20Architect%20%7C%20PHP%20%C2%B7%20Laravel%20%C2%B7%20Zenith&descAlignY=58&descSize=17&animation=fadeIn" alt="header" />
 
 <!-- Typing SVG -->
 <a href="https://github.com/shamimwhois">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=900&color=0E75B6&center=true&vCenter=true&width=760&height=60&lines=Pure+PHP+Developer+%26+Architect;Laravel+Ecosystem+Specialist;Creator+of+Zenith+Framework;AI+Integration+%26+MCP+Tooling+Engineer;OSINT+Automation+Researcher" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=900&color=0E75B6&center=true&vCenter=true&width=760&height=60&lines=Senior+Fullstack+Developer+%26+Architect;High-Performance+Backend+Systems;Elegant+RESTful+%26+GraphQL+APIs;Laravel+Ecosystem+Specialist;Creator+of+Zenith+Framework;AI+Integration+%26+MCP+Tooling" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -47,6 +47,8 @@
 
 ### 👨‍💻 About Me
 
+**Senior Fullstack Developer & Architect** — I design and build systems end to end.
+
 </div>
 
 I architect and build **high-performance backend systems**, elegant **RESTful & GraphQL APIs**, and scalable web applications using **pure PHP**, the **Laravel ecosystem**, and my own lightweight **Zenith Framework**.
@@ -64,7 +66,7 @@ Zenith Framework v2 · MCP servers · AI-first Laravel packages
 Swoole · LLM integration · Browser-based development (Liminal)
 
 **💬 Ask me about**
-PHP internals · Laravel performance · Framework design · AI SDKs · MCP protocol
+PHP internals · Laravel performance · Framework design · API architecture · AI SDKs · MCP protocol
 
     </td>
     <td width="50%" valign="top">
@@ -79,6 +81,28 @@ PHP internals · Laravel performance · Framework design · AI SDKs · MCP proto
 [shamimhossain.dev](https://shamimhossain.dev) · [shamim.uk](https://shamim.uk) · [shamim.it](https://shamim.it)
 [shamim.help](https://shamim.help) · [shamimstack.com](https://shamimstack.com) · [shamimhossain.com.bd](https://shamimhossain.com.bd)
 
+    </td>
+  </tr>
+</table>
+
+<!-- What I do, at a glance -->
+<table align="center">
+  <tr>
+    <td align="center" width="25%">
+      <b>⚙️ Backend</b><br/>
+      <sub>High-throughput services,<br/>queueing, caching layers</sub>
+    </td>
+    <td align="center" width="25%">
+      <b>🔌 APIs</b><br/>
+      <sub>REST &amp; GraphQL,<br/>versioning, contracts</sub>
+    </td>
+    <td align="center" width="25%">
+      <b>🏗️ Architecture</b><br/>
+      <sub>Domain boundaries,<br/>framework design</sub>
+    </td>
+    <td align="center" width="25%">
+      <b>🤖 AI</b><br/>
+      <sub>LLM integration,<br/>MCP tooling</sub>
     </td>
   </tr>
 </table>
@@ -162,6 +186,14 @@ PHP internals · Laravel performance · Framework design · AI SDKs · MCP proto
 </table>
 
 <br/>
+
+**Contribution Activity**
+
+<a href="https://github.com/shamimwhois?tab=activity">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=shamimwhois&theme=tokyo-night&hide_border=true&radius=12&area=true&custom_title=Contribution%20Activity" alt="Activity Graph" />
+</a>
+
+<br/><br/>
 
 **Contribution Graph**
 
