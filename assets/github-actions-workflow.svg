@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="310" viewBox="0 0 1100 310" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Actions profile workflow</title>
+  <desc id="desc">A commit or pull request triggers GitHub Actions, which checks the profile README and animated diagram, validates the landing page HTML and internal links, then reports success or failure.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .panel{fill:#fff;stroke:#dbe5ee;stroke-width:1.5}
+      .heading{font:700 15px Inter,Arial,sans-serif;fill:#0f172a}
+      .sub{font:12px Inter,Arial,sans-serif;fill:#64748b}
+      .label{font:700 10px Inter,Arial,sans-serif;letter-spacing:1.4px;fill:#0f766e}
+      .wire{fill:none;stroke:url(#line);stroke-width:3;stroke-linecap:round;stroke-dasharray:9 10;animation:flow 2.2s linear infinite}
+      .node{fill:#f0fdfa;stroke:#99f6e4;stroke-width:1.5}
+      .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
+      @keyframes flow{to{stroke-dashoffset:-38}}
+      @keyframes pulse{0%,100%{opacity:.75;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
+      @media(prefers-reduced-motion:reduce){.wire,.pulse{animation:none}}
+    </style>
+  </defs>
+  <rect width="1100" height="310" rx="18" fill="#f8fafc"/>
+  <text x="34" y="38" class="label">CONTINUOUS INTEGRATION</text>
+  <text x="34" y="62" class="heading" style="font-size:19px">From commit to verified profile</text>
+  <path class="wire" d="M218 160 H286 M488 160 H556 M758 160 H826"/>
+  <g transform="translate(34 105)">
+    <rect class="panel" width="184" height="110" rx="13"/>
+    <circle cx="27" cy="29" r="13" class="node"/>
+    <path d="M23 29h8M27 25v8" stroke="#0f766e" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="20" y="64" class="heading">Push / Pull request</text>
+    <text x="20" y="85" class="sub">main branch events</text>
+  </g>
+  <g transform="translate(286 105)">
+    <rect class="panel" width="202" height="110" rx="13"/>
+    <circle cx="29" cy="29" r="13" class="node"/>
+    <path d="M23 29h12M29 23v12" stroke="#0f766e" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="20" y="64" class="heading">GitHub Actions</text>
+    <text x="20" y="85" class="sub">Ubuntu · Python 3.12</text>
+  </g>
+  <g transform="translate(556 105)">
+    <rect class="panel" width="202" height="110" rx="13"/>
+    <circle cx="29" cy="29" r="13" class="node pulse"/>
+    <path d="m23 29 4 4 8-9" fill="none" stroke="#0f766e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="20" y="64" class="heading">Quality checks</text>
+    <text x="20" y="85" class="sub">README · SVG · HTML · links</text>
+  </g>
+  <g transform="translate(826 105)">
+    <rect class="panel" width="240" height="110" rx="13"/>
+    <circle cx="30" cy="29" r="13" class="node pulse"/>
+    <path d="m24 29 4 4 8-9" fill="none" stroke="#0f766e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="20" y="64" class="heading">Result</text>
+    <text x="20" y="85" class="sub">Pass ✓ · Fail with logs</text>
+  </g>
+  <text x="34" y="266" class="sub">Manual runs supported · Least-privilege token · No deployment or write permissions</text>
+</svg>
