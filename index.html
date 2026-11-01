@@ -1,74 +1,314 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shamim Hossain · PHP Architect & Zenith Creator</title>
-  <meta name="description" content="Shamim Hossain - Pure PHP Developer, Laravel Architect, and Creator of Zenith Framework. AI & OSINT Automation Engineer.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Md Shamim Hossain — Software Engineer building Laravel products, reliable backend systems, AI-enabled tools, and automation workflows.">
+  <meta property="og:title" content="Md Shamim Hossain — Software Engineer">
+  <meta property="og:description" content="Backend engineering, Laravel, AI-enabled tooling, and automation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/shamimwhois">
+  <title>Md Shamim Hossain — Software Engineer</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      background: #0d1117;
-      color: #c9d1d9;
-      line-height: 1.6;
-      padding: 2rem 1rem;
+    :root {
+      color-scheme: dark;
+      --bg: #07111f;
+      --panel: rgba(15, 29, 47, .78);
+      --panel-strong: #101d30;
+      --line: rgba(151, 184, 218, .15);
+      --text: #edf5ff;
+      --muted: #9aabc0;
+      --cyan: #7de3ff;
+      --violet: #a78bfa;
+      --mint: #83f0c5;
+      --max: 1120px;
     }
-    .container { max-width: 1000px; margin: 0 auto; }
-    h1, h2, h3 { color: #58a6ff; margin-top: 2rem; }
-    a { color: #58a6ff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .badge-container { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; margin: 2rem 0; }
-    .badge { display: inline-block; }
-    .section { background: #161b22; border-radius: 8px; padding: 1.5rem; margin: 2rem 0; border: 1px solid #30363d; }
-    table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
-    th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #30363d; }
-    th { color: #8b949e; }
-    .stats { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
-    .stats img { max-width: 100%; height: auto; }
-    .footer { text-align: center; margin-top: 3rem; color: #8b949e; }
-    .typing-container { text-align: center; margin-bottom: 1rem; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      background:
+        radial-gradient(ellipse at 14% 4%, rgba(33, 121, 157, .19), transparent 34rem),
+        radial-gradient(ellipse at 88% 16%, rgba(109, 74, 255, .17), transparent 31rem),
+        linear-gradient(180deg, #07111f 0%, #091423 52%, #07111f 100%);
+      font: 16px/1.65 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      overflow-x: hidden;
+    }
+    body::before {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      content: "";
+      pointer-events: none;
+      opacity: .22;
+      background-image: linear-gradient(rgba(125, 227, 255, .07) 1px, transparent 1px), linear-gradient(90deg, rgba(125, 227, 255, .07) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: linear-gradient(to bottom, black, transparent 82%);
+    }
+    a { color: inherit; text-decoration: none; }
+    a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 4px; border-radius: 8px; }
+    .wrap { width: min(var(--max), calc(100% - 44px)); margin: 0 auto; }
+    .topbar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 24px 0; border-bottom: 1px solid var(--line);
+    }
+    .brand { display: flex; align-items: center; gap: 12px; font-size: 12px; font-weight: 800; letter-spacing: .16em; }
+    .brand-mark {
+      display: grid; place-items: center; width: 38px; height: 38px; border-radius: 12px;
+      color: var(--cyan); border: 1px solid rgba(125, 227, 255, .4);
+      background: linear-gradient(145deg, rgba(125, 227, 255, .15), rgba(167, 139, 250, .12));
+      box-shadow: 0 0 28px rgba(125, 227, 255, .12);
+    }
+    .nav { display: flex; gap: 24px; color: var(--muted); font-size: 13px; }
+    .nav a:hover { color: var(--cyan); }
+    .hero {
+      position: relative; display: grid; grid-template-columns: 1.1fr .9fr;
+      align-items: center; gap: 52px; padding: 100px 0 92px; min-height: 590px;
+    }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 10px; color: var(--cyan);
+      font: 700 11px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+      letter-spacing: .17em; text-transform: uppercase;
+    }
+    .eyebrow::before { content: ""; width: 28px; height: 1px; background: var(--cyan); box-shadow: 0 0 12px var(--cyan); }
+    h1 { max-width: 720px; margin: 22px 0 18px; font-size: clamp(46px, 6.8vw, 82px); line-height: .99; letter-spacing: -.065em; }
+    h1 span { display: block; color: transparent; background: linear-gradient(100deg, var(--cyan), #c1b2ff 72%, #f2b5d6); background-clip: text; -webkit-background-clip: text; }
+    .intro { max-width: 600px; color: var(--muted); font-size: 17px; }
+    .role { min-height: 30px; margin: 20px 0 28px; color: var(--mint); font: 600 14px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .caret { display: inline-block; width: 8px; height: 15px; margin-left: 4px; vertical-align: -2px; background: var(--mint); animation: blink 1s steps(2, start) infinite; }
+    @keyframes blink { to { visibility: hidden; } }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .button {
+      display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+      min-height: 48px; padding: 0 19px; border-radius: 12px; border: 1px solid var(--line);
+      font-size: 13px; font-weight: 750; transition: transform .2s ease, border-color .2s ease, background .2s ease;
+    }
+    .button:hover { transform: translateY(-3px); border-color: rgba(125, 227, 255, .55); }
+    .button.primary { color: #06121d; border-color: transparent; background: linear-gradient(100deg, var(--cyan), #b5c6ff); }
+    .button.secondary { background: rgba(255,255,255,.035); }
+    .visual { position: relative; display: grid; place-items: center; min-height: 390px; isolation: isolate; }
+    .visual::before, .visual::after {
+      position: absolute; content: ""; border-radius: 50%; border: 1px solid rgba(125, 227, 255, .18);
+      transform: rotate(-24deg); animation: orbit 24s linear infinite;
+    }
+    .visual::before { width: 330px; height: 180px; }
+    .visual::after { width: 430px; height: 240px; border-color: rgba(167, 139, 250, .18); animation-duration: 34s; animation-direction: reverse; }
+    @keyframes orbit { to { transform: rotate(336deg); } }
+    .core {
+      position: relative; display: grid; place-items: center; width: 208px; height: 208px; border-radius: 50%;
+      border: 1px solid rgba(125, 227, 255, .38);
+      background: radial-gradient(circle at 35% 28%, rgba(125, 227, 255, .23), rgba(25, 48, 78, .75) 48%, rgba(7, 17, 31, .92) 72%);
+      box-shadow: 0 0 70px rgba(39, 173, 212, .18), inset 0 0 45px rgba(125, 227, 255, .1);
+      animation: breathe 5s ease-in-out infinite;
+    }
+    @keyframes breathe { 50% { box-shadow: 0 0 100px rgba(39, 173, 212, .28), inset 0 0 55px rgba(125, 227, 255, .15); transform: scale(1.025); } }
+    .core img { width: 112px; height: 112px; border-radius: 50%; border: 2px solid rgba(125, 227, 255, .55); }
+    .orbit-dot { position: absolute; z-index: 2; width: 12px; height: 12px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 18px var(--cyan); }
+    .dot-one { top: 76px; right: 82px; }
+    .dot-two { bottom: 86px; left: 70px; width: 8px; height: 8px; background: var(--violet); box-shadow: 0 0 18px var(--violet); }
+    .visual-label {
+      position: absolute; bottom: 0; padding: 8px 13px; border: 1px solid var(--line); border-radius: 999px;
+      color: var(--muted); background: rgba(10, 22, 37, .78); font: 10px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .12em;
+    }
+    .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; overflow: hidden; border: 1px solid var(--line); border-radius: 16px; background: var(--line); }
+    .metric { padding: 22px; background: rgba(11, 25, 42, .88); }
+    .metric strong { display: block; color: var(--cyan); font: 750 14px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em; }
+    .metric span { color: var(--muted); font-size: 12px; }
+    section { padding: 84px 0 0; scroll-margin-top: 24px; }
+    .section-head { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin-bottom: 26px; }
+    .section-index { color: var(--cyan); font: 700 11px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .15em; }
+    h2 { margin: 9px 0 0; font-size: clamp(27px, 4vw, 40px); letter-spacing: -.04em; }
+    .section-note { max-width: 430px; color: var(--muted); font-size: 13px; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+    .card {
+      position: relative; padding: 24px; border: 1px solid var(--line); border-radius: 17px;
+      background: linear-gradient(145deg, rgba(17, 34, 55, .88), rgba(11, 23, 39, .8));
+      transition: transform .22s ease, border-color .22s ease;
+    }
+    .card:hover { transform: translateY(-4px); border-color: rgba(125, 227, 255, .36); }
+    .card-kicker { color: var(--cyan); font: 700 10px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .14em; }
+    .card h3 { margin: 12px 0 8px; font-size: 20px; }
+    .card p { margin: 0; color: var(--muted); font-size: 14px; }
+    .card a.link { display: inline-flex; margin-top: 19px; color: var(--cyan); font-size: 12px; font-weight: 750; }
+    .chips { display: flex; flex-wrap: wrap; gap: 9px; }
+    .chip { padding: 9px 12px; border: 1px solid var(--line); border-radius: 9px; color: #c8d7e8; background: rgba(255,255,255,.035); font-size: 12px; }
+    .feature {
+      display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 24px;
+      padding: 27px; border: 1px solid rgba(125, 227, 255, .24); border-radius: 18px;
+      background: radial-gradient(circle at 90% 15%, rgba(109, 74, 255, .15), transparent 20rem), rgba(12, 28, 47, .85);
+    }
+    .feature h3 { margin: 9px 0; font-size: 25px; }
+    .feature p { max-width: 700px; margin: 0; color: var(--muted); font-size: 14px; }
+    .feature .button { white-space: nowrap; }
+    .contact { display: flex; flex-wrap: wrap; gap: 12px; padding-bottom: 80px; }
+    footer { padding: 26px 0 34px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+    footer .wrap { display: flex; justify-content: space-between; gap: 16px; }
+    @media (max-width: 760px) {
+      .nav { gap: 13px; font-size: 11px; }
+      .hero { grid-template-columns: 1fr; gap: 26px; padding: 72px 0 56px; }
+      .visual { min-height: 310px; }
+      .visual::before { width: 270px; height: 150px; }
+      .visual::after { width: 350px; height: 200px; }
+      .core { width: 172px; height: 172px; }
+      .core img { width: 94px; height: 94px; }
+      .dot-one { top: 48px; right: 70px; }
+      .dot-two { bottom: 68px; left: 54px; }
+      .section-head { display: block; }
+      .section-note { margin-top: 10px; }
+      .feature { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 520px) {
+      .wrap { width: min(var(--max), calc(100% - 30px)); }
+      .nav a:nth-child(2) { display: none; }
+      h1 { font-size: 48px; }
+      .intro { font-size: 15px; }
+      .grid, .metrics { grid-template-columns: 1fr; }
+      .metric { padding: 16px 20px; }
+      .contact .button { flex: 1 1 100%; }
+      footer .wrap { flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+    }
   </style>
 </head>
 <body>
-<div class="container">
-  <div class="typing-container">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Shamim+Hossain;Pure+PHP+Developer+%26+Architect;Laravel+Ecosystem+Specialist;Creator+of+Zenith+Framework;AI+%26+OSINT+Automation+Engineer" alt="Typing SVG" style="max-width:100%;">
-  </div>
+  <div class="wrap">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Back to top">
+        <span class="brand-mark">SH</span>
+        <span>SHAMIM HOSSAIN <span style="color:#71859d">/ ENGINEERING</span></span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#stack">Stack</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-  <div class="badge-container">
-    <a href="https://shamim.dev"><img src="https://img.shields.io/badge/shamim.dev-0A0A0A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="shamim.dev" class="badge"></a>
-    <a href="https://zenithframework.com"><img src="https://img.shields.io/badge/Zenith_Framework-1B2A4A?style=for-the-badge&logo=php&logoColor=white" alt="Zenith Framework" class="badge"></a>
-    <a href="mailto:shamimstack@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" class="badge"></a>
-  </div>
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div>
+          <div class="eyebrow">SOFTWARE ENGINEER · BANGLADESH</div>
+          <h1 id="hero-title">I build <span>useful systems.</span></h1>
+          <p class="intro">I turn complex ideas into reliable backend products, developer tools, and thoughtful digital experiences.</p>
+          <div class="role"><span id="role-text">Laravel &amp; PHP engineer</span><span class="caret" aria-hidden="true"></span></div>
+          <div class="actions">
+            <a class="button primary" href="#work">Explore selected work <span aria-hidden="true">↗</span></a>
+            <a class="button secondary" href="https://github.com/shamimwhois">GitHub profile <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="visual" aria-label="Animated profile visual">
+          <span class="orbit-dot dot-one"></span>
+          <span class="orbit-dot dot-two"></span>
+          <div class="core"><img src="https://avatars.githubusercontent.com/u/275534593?v=4" alt="GitHub avatar of Md Shamim Hossain"></div>
+          <div class="visual-label">BUILD / ITERATE / IMPROVE</div>
+        </div>
+      </section>
 
-  <div class="badge-container">
-    <img src="https://komarev.com/ghpvc/?username=shamimwhois&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views">
-    <a href="https://github.com/shamimwhois"><img src="https://img.shields.io/github/followers/shamimwhois?label=Follow&style=social" alt="GitHub followers"></a>
-    <a href="https://github.com/shamimwhois"><img src="https://img.shields.io/github/stars/shamimwhois?label=Stars&style=social" alt="GitHub stars"></a>
-  </div>
+      <div class="metrics" aria-label="Engineering focus">
+        <div class="metric"><strong>01 / BUILD</strong><span>Backend products &amp; APIs</span></div>
+        <div class="metric"><strong>02 / CONNECT</strong><span>AI tools &amp; integrations</span></div>
+        <div class="metric"><strong>03 / AUTOMATE</strong><span>Reliable engineering workflows</span></div>
+      </div>
 
-  <div class="section">
-    <h2>👨‍💻 About Me</h2>
-    <p>I architect and build <strong>high‑performance backend systems</strong>, elegant RESTful & GraphQL APIs, and scalable web applications using <strong>pure PHP</strong>, the <strong>Laravel ecosystem</strong>, and my own lightweight <strong>Zenith Framework</strong>.</p>
-    <p>I also specialize in <strong>AI integration</strong>, <strong>OSINT automation</strong>, and <strong>Model Context Protocol (MCP)</strong> tooling.</p>
-    <ul style="margin-left:1.5rem; margin-top:1rem;">
-      <li>🔭 <strong>Currently working on:</strong> Zenith Framework v2 · MCP servers · AI‑first Laravel packages</li>
-      <li>🌱 <strong>Deepening knowledge in:</strong> Swoole · LLM integration · Browser‑based development (Liminal)</li>
-      <li>💬 <strong>Ask me about:</strong> PHP internals · Laravel performance · Framework design · AI SDKs · MCP protocol</li>
-      <li>📫 <strong>Email:</strong> shamimstack@gmail.com · shamimwhois@gmail.com</li>
-      <li>🌐 <strong>Domains:</strong> shamim.dev · shamim.uk · shamimstack.com · shamimwhois.com · shamimhossain.com · shamimcoder.com · shamim.it · shamimhossain.dev · shamimdev.dev · shamimhossain.com.bd</li>
-      <li>🧪 <strong>Zenith Framework:</strong> <a href="https://zenithframework.com">zenithframework.com</a> · <a href="https://lang.zenithframework.com">lang.zenithframework.com</a> · <a href="https://github.com/ZenithFramework">GitHub</a></li>
-    </ul>
-  </div>
+      <section id="about">
+        <div class="section-head">
+          <div><div class="section-index">01 — PROFILE</div><h2>Engineering with intention.</h2></div>
+          <p class="section-note">My day-to-day work is centered on maintainable systems, clear interfaces, and solving problems at the right layer.</p>
+        </div>
+        <div class="grid">
+          <article class="card"><div class="card-kicker">BACKEND ENGINEERING</div><h3>Laravel, PHP &amp; APIs</h3><p>Building application foundations, packages, integrations, and services with a focus on clean boundaries and predictable behavior.</p></article>
+          <article class="card"><div class="card-kicker">AI &amp; DEVELOPER TOOLS</div><h3>Making tools smarter</h3><p>Exploring LLM integrations, local model workflows, MCP, and practical AI-assisted engineering experiences.</p></article>
+          <article class="card"><div class="card-kicker">RELIABILITY</div><h3>Built for real conditions</h3><p>Thinking through security, queues, retries, data integrity, testing, observability, and failure recovery.</p></article>
+          <article class="card"><div class="card-kicker">AUTOMATION</div><h3>From commit to delivery</h3><p>Designing CI/CD workflows and repeatable processes that make software delivery safer and easier to maintain.</p></article>
+        </div>
+      </section>
 
-  <!-- Add other sections similarly... truncated for brevity -->
-  <!-- You can copy the rest of the README content into HTML structure -->
+      <section id="work">
+        <div class="section-head">
+          <div><div class="section-index">02 — SELECTED WORK</div><h2>Things in the workshop.</h2></div>
+          <p class="section-note">A selection of public repositories and products. Visit GitHub for the wider set of experiments and code.</p>
+        </div>
+        <article class="feature">
+          <div>
+            <div class="card-kicker">FEATURED BUILD · ACTIVE DEVELOPMENT</div>
+            <h3>Storix — One API. Every Storage.</h3>
+            <p>A provider-neutral Laravel storage and transfer layer. Current engineering focus: chunk workflows, integrity verification, resumability, and recovery behavior.</p>
+          </div>
+          <a class="button primary" href="https://github.com/shamimwhois/storix">Explore Storix ↗</a>
+        </article>
+        <div class="grid" style="margin-top:14px">
+          <article class="card"><div class="card-kicker">PRODUCT ENGINEERING</div><h3>Personal Portfolio</h3><p>A Laravel and Livewire-powered portfolio experience with a futuristic HUD-inspired interface and project management features.</p><a class="link" href="https://github.com/shamimwhois/portfolio">View repository ↗</a></article>
+          <article class="card"><div class="card-kicker">OPEN-SOURCE COMMUNITY</div><h3>/dev/null</h3><p>A social network for developers, with GitHub sign-in, developer discovery, and a place to share commits.</p><a class="link" href="https://github.com/shamimwhois/dev-null.sh">View repository ↗</a></article>
+        </div>
+      </section>
 
-  <div class="footer">
-    <p>“Code is poetry, but clean architecture is prose. AI is the next chapter.”</p>
-    <p>© Shamim Hossain · <a href="https://shamim.dev">shamim.dev</a></p>
+      <section id="stack">
+        <div class="section-head">
+          <div><div class="section-index">03 — TOOLKIT</div><h2>The tools I reach for.</h2></div>
+          <p class="section-note">A practical toolkit that evolves with the problem, not a checklist of technologies.</p>
+        </div>
+        <div class="chips">
+          <span class="chip">PHP</span><span class="chip">Laravel</span><span class="chip">Livewire</span><span class="chip">Tailwind CSS</span><span class="chip">Alpine.js</span><span class="chip">JavaScript</span><span class="chip">TypeScript</span><span class="chip">MySQL</span><span class="chip">PostgreSQL</span><span class="chip">Redis</span><span class="chip">Docker</span><span class="chip">Linux</span><span class="chip">GitHub Actions</span><span class="chip">OpenAI</span><span class="chip">Ollama</span><span class="chip">MCP</span>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="section-head">
+          <div><div class="section-index">04 — CONTACT</div><h2>Let's build something useful.</h2></div>
+          <p class="section-note">Open to thoughtful conversations about backend engineering, Laravel, AI tooling, and open-source collaboration.</p>
+        </div>
+        <div class="contact">
+          <a class="button primary" href="mailto:shamimstack@gmail.com">Send an email ↗</a>
+          <a class="button secondary" href="https://shamimhossain.dev">Portfolio ↗</a>
+          <a class="button secondary" href="https://github.com/shamimwhois">GitHub ↗</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/shamimwhois">LinkedIn ↗</a>
+        </div>
+      </section>
+    </main>
+
+    <footer><div class="wrap"><span>© <span id="year">2026</span> Md Shamim Hossain</span><span>DESIGNING SYSTEMS · SHIPPING SOFTWARE · LEARNING IN PUBLIC</span></div></footer>
   </div>
-</div>
+  <script>
+    (() => {
+      const role = document.getElementById("role-text");
+      const year = document.getElementById("year");
+      if (year) year.textContent = String(new Date().getFullYear());
+      if (!role || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+      const phrases = [
+        "Laravel & PHP engineer",
+        "Backend systems builder",
+        "AI tooling enthusiast",
+        "Automation-focused developer"
+      ];
+      let phraseIndex = 0;
+      let characterIndex = phrases[0].length;
+      let deleting = false;
+
+      const tick = () => {
+        const phrase = phrases[phraseIndex];
+        characterIndex += deleting ? -1 : 1;
+        role.textContent = phrase.slice(0, characterIndex);
+
+        let delay = deleting ? 36 : 62;
+        if (!deleting && characterIndex >= phrase.length) {
+          deleting = true;
+          delay = 1450;
+        } else if (deleting && characterIndex <= 0) {
+          deleting = false;
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+          delay = 300;
+        }
+        window.setTimeout(tick, delay);
+      };
+      window.setTimeout(tick, 1600);
+    })();
+  </script>
 </body>
 </html>
