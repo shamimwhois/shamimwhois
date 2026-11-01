@@ -1,0 +1,104 @@
+name: Profile CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate profile files
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate README and workflow diagram
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import sys
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          required_sections = ("## About", "## Featured project", "## Selected work",
+                               "## Technologies", "## GitHub Actions")
+          missing = [section for section in required_sections if section not in readme]
+          diagram = Path("assets/github-actions-workflow.svg")
+
+          if missing:
+              print("Missing README sections:", ", ".join(missing))
+              sys.exit(1)
+          if not diagram.is_file() or diagram.stat().st_size < 500:
+              print("Workflow diagram is missing or unexpectedly small.")
+              sys.exit(1)
+          if "github-actions-workflow.svg" not in readme:
+              print("README does not reference the workflow diagram.")
+              sys.exit(1)
+
+          print("README structure and workflow diagram: OK")
+          PY
+
+      - name: Validate landing page HTML
+        run: |
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          import sys
+
+          class ProfileHTMLValidator(HTMLParser):
+              def __init__(self):
+                  super().__init__(convert_charrefs=True)
+                  self.ids = set()
+                  self.duplicates = []
+                  self.anchors = set()
+
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  element_id = attrs.get("id")
+                  if element_id:
+                      if element_id in self.ids:
+                          self.duplicates.append(element_id)
+                      self.ids.add(element_id)
+                  href = attrs.get("href", "")
+                  if href.startswith("#") and len(href) > 1:
+                      self.anchors.add(href[1:])
+
+          html_path = Path("index.html")
+          source = html_path.read_text(encoding="utf-8")
+          parser = ProfileHTMLValidator()
+          parser.feed(source)
+          parser.close()
+
+          missing_anchors = sorted(parser.anchors - parser.ids)
+          errors = []
+          if "<!doctype html>" not in source.lower():
+              errors.append("Missing HTML5 doctype")
+          if "<title>" not in source.lower():
+              errors.append("Missing document title")
+          if parser.duplicates:
+              errors.append("Duplicate IDs: " + ", ".join(parser.duplicates))
+          if missing_anchors:
+              errors.append("Broken in-page links: " + ", ".join(missing_anchors))
+
+          if errors:
+              print("\n".join(errors))
+              sys.exit(1)
+
+          print("Landing page HTML structure and in-page links: OK")
+          PY
