@@ -24,10 +24,10 @@ jobs:
       contents: read
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38 # v5.6.0
         with:
           python-version: "3.12"
 
@@ -77,6 +77,7 @@ jobs:
               def __init__(self):
                   super().__init__(convert_charrefs=True)
                   self.ids, self.duplicates, self.anchors, self.links, self.images = set(), [], set(), set(), set()
+                  self.images_without_alt, self.main_count, self.nav_without_label = [], 0, []
               def handle_starttag(self, tag, attrs):
                   attrs = dict(attrs)
                   ident = attrs.get("id")
@@ -85,12 +86,22 @@ jobs:
                           self.duplicates.append(ident)
                       self.ids.add(ident)
                   href, src = attrs.get("href", ""), attrs.get("src", "")
+                  if tag == "main":
+                      self.main_count += 1
+                  if tag == "nav" and not attrs.get("aria-label"):
+                      self.nav_without_label.append("nav")
+                  if tag == "img" and not attrs.get("alt", "").strip():
+                      self.images_without_alt.append(src or "(missing src)")
                   if href.startswith("#") and len(href) > 1:
                       self.anchors.add(href[1:])
                   if href.startswith("https://"):
                       self.links.add(href)
                   if src:
                       self.images.add(src)
+                      if not src.startswith(("https://", "http://", "//", "data:")):
+                          local_path = src.split("?", 1)[0].split("#", 1)[0]
+                          if local_path and not Path(local_path).is_file():
+                              errors.append(f"Missing local image asset: {src}")
 
           parser = Parser()
           parser.feed(page)
@@ -106,6 +117,25 @@ jobs:
                   errors.append(f"Missing or invalid generated visual placeholder: {path}")
           if parser.duplicates:
               errors.append("Duplicate HTML IDs: " + ", ".join(parser.duplicates))
+          if parser.images_without_alt:
+              errors.append("Images missing accessible alt text: " + ", ".join(parser.images_without_alt))
+          if parser.main_count != 1:
+              errors.append(f"Expected exactly one main landmark, found {parser.main_count}")
+          if parser.nav_without_label:
+              errors.append("Navigation landmarks missing aria-label")
+          if readme.count("readme-typing-svg.demolab.com") != 1:
+              errors.append("README must contain exactly one animated typing headline")
+          canonical_linkedin = "https://www.linkedin.com/in/shamimwhois"
+          if readme.count(canonical_linkedin) != 2 or page.count(canonical_linkedin) < 2:
+              errors.append("README and portfolio must use the canonical LinkedIn profile URL")
+          if "komarev.com/ghpvc" in readme or "komarev.com/ghpvc" in page:
+              errors.append("Do not present image-request counters as verified profile views")
+          if '<html lang="en">' not in page.lower():
+              errors.append("HTML document must declare its language")
+          if "<title>" not in page.lower() or "</title>" not in page.lower():
+              errors.append("HTML document must have a non-empty title")
+          if 'name="description"' not in page.lower():
+              errors.append("HTML document must have a meta description")
           if errors:
               print("\n".join(errors))
               sys.exit(1)
@@ -122,12 +152,12 @@ jobs:
       contents: write
     steps:
       - name: Checkout selected branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           ref: ${{ github.ref_name }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38 # v5.6.0
         with:
           python-version: "3.12"
 
