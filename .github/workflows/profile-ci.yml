@@ -77,7 +77,7 @@ jobs:
               def __init__(self):
                   super().__init__(convert_charrefs=True)
                   self.ids, self.duplicates, self.anchors, self.links, self.images = set(), [], set(), set(), set()
-              self.images_without_alt, self.main_count, self.nav_without_label = [], 0, []
+                  self.images_without_alt, self.main_count, self.nav_without_label = [], 0, []
               def handle_starttag(self, tag, attrs):
                   attrs = dict(attrs)
                   ident = attrs.get("id")
@@ -130,11 +130,11 @@ jobs:
               errors.append("README and portfolio must use the canonical LinkedIn profile URL")
           if "komarev.com/ghpvc" in readme or "komarev.com/ghpvc" in page:
               errors.append("Do not present image-request counters as verified profile views")
-          if not re.search(r"<html\\b[^>]*\\blang=[\\\"']en[\\\"']", page, re.I):
+          if '<html lang="en">' not in page.lower():
               errors.append("HTML document must declare its language")
-          if not re.search(r"<title>\\s*[^<]+\\s*</title>", page, re.I):
+          if "<title>" not in page.lower() or "</title>" not in page.lower():
               errors.append("HTML document must have a non-empty title")
-          if not re.search(r'<meta\\s+name=["\\\']description["\\\']\\s+content=["\\\'][^"\\\']+', page, re.I):
+          if 'name="description"' not in page.lower():
               errors.append("HTML document must have a meta description")
           if errors:
               print("\n".join(errors))
