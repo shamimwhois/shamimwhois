@@ -5,7 +5,7 @@
 <p>
   <a href="https://shamimhossain.dev">WEBSITE</a> ·
   <a href="https://github.com/shamimwhois">GITHUB</a> ·
-  <a href="https://www.linkedin.com/in/shamimwhois">LINKEDIN</a> ·
+  <a href="https://www.linkedin.com/in/shamimwstack">LINKEDIN</a> ·
   <a href="mailto:shamimstack@gmail.com">EMAIL</a>
 </p>
 
