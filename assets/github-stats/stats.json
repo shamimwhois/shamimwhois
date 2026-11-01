@@ -1,0 +1,151 @@
+{
+  "generated_at": "2026-11-01T10:12:25+00:00",
+  "username": "shamimwhois",
+  "source": "GitHub REST API",
+  "scope": "public profile, public repositories, and public events",
+  "profile": {
+    "public_repositories": 27,
+    "followers": 3,
+    "following": 7,
+    "public_gists": 0
+  },
+  "repositories": {
+    "non_fork_non_archived": 17,
+    "stars_across_public_repositories": 0,
+    "forks_across_public_repositories": 0,
+    "primary_language_repository_counts": {
+      "PHP": 8,
+      "Blade": 4,
+      "HTML": 3,
+      "Python": 1,
+      "CSS": 1
+    }
+  },
+  "public_events": {
+    "window_days": 30,
+    "returned_events_in_window": 100,
+    "api_note": "GitHub Events API is capped and is not a complete contribution history.",
+    "daily_counts": [
+      {
+        "date": "2026-10-03",
+        "events": 0
+      },
+      {
+        "date": "2026-10-04",
+        "events": 0
+      },
+      {
+        "date": "2026-10-05",
+        "events": 0
+      },
+      {
+        "date": "2026-10-06",
+        "events": 0
+      },
+      {
+        "date": "2026-10-07",
+        "events": 0
+      },
+      {
+        "date": "2026-10-08",
+        "events": 0
+      },
+      {
+        "date": "2026-10-09",
+        "events": 0
+      },
+      {
+        "date": "2026-10-10",
+        "events": 0
+      },
+      {
+        "date": "2026-10-11",
+        "events": 0
+      },
+      {
+        "date": "2026-10-12",
+        "events": 0
+      },
+      {
+        "date": "2026-10-13",
+        "events": 0
+      },
+      {
+        "date": "2026-10-14",
+        "events": 0
+      },
+      {
+        "date": "2026-10-15",
+        "events": 0
+      },
+      {
+        "date": "2026-10-16",
+        "events": 0
+      },
+      {
+        "date": "2026-10-17",
+        "events": 0
+      },
+      {
+        "date": "2026-10-18",
+        "events": 0
+      },
+      {
+        "date": "2026-10-19",
+        "events": 0
+      },
+      {
+        "date": "2026-10-20",
+        "events": 0
+      },
+      {
+        "date": "2026-10-21",
+        "events": 0
+      },
+      {
+        "date": "2026-10-22",
+        "events": 0
+      },
+      {
+        "date": "2026-10-23",
+        "events": 0
+      },
+      {
+        "date": "2026-10-24",
+        "events": 0
+      },
+      {
+        "date": "2026-10-25",
+        "events": 0
+      },
+      {
+        "date": "2026-10-26",
+        "events": 0
+      },
+      {
+        "date": "2026-10-27",
+        "events": 0
+      },
+      {
+        "date": "2026-10-28",
+        "events": 0
+      },
+      {
+        "date": "2026-10-29",
+        "events": 0
+      },
+      {
+        "date": "2026-10-30",
+        "events": 42
+      },
+      {
+        "date": "2026-10-31",
+        "events": 0
+      },
+      {
+        "date": "2026-11-01",
+        "events": 58
+      }
+    ]
+  }
+}
