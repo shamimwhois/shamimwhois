@@ -1,43 +1,19 @@
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--  Shamim Hossain — GitHub Profile                                       -->
-<!--  Visuals: capsule-render · readme-typing-svg · github-readme-stats    -->
-<!--  streak-stats · profile-trophy · ghchart · contributor-stats          -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
-<!-- Animated capsule header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0E75B6,50:6B46C1,100:0E75B6&height=200&section=header&text=Shamim%20Hossain&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Senior%20Fullstack%20Developer%20%26%20Architect%20%7C%20PHP%20%C2%B7%20Laravel%20%C2%B7%20Zenith&descAlignY=58&descSize=17&animation=fadeIn" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:07111F,45:123B55,100:6D4AFF&height=220&section=header&text=MD%20SHAMIM%20HOSSAIN&fontSize=44&fontColor=F5F7FF&fontAlignY=36&desc=SOFTWARE%20ENGINEER%20%E2%80%A2%20LARAVEL%20%E2%80%A2%20AI%20SYSTEMS&descAlignY=60&descSize=15&animation=fadeIn" alt="Md Shamim Hossain — Software Engineer" />
 
-<!-- Typing SVG -->
 <a href="https://github.com/shamimwhois">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=900&color=0E75B6&center=true&vCenter=true&width=760&height=60&lines=Senior+Fullstack+Developer+%26+Architect;High-Performance+Backend+Systems;Elegant+RESTful+%26+GraphQL+APIs;Laravel+Ecosystem+Specialist;Creator+of+Zenith+Framework;AI+Integration+%26+MCP+Tooling" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=7DE3FF&center=true&vCenter=true&width=760&height=42&lines=Building+reliable+backend+systems;Crafting+Laravel+and+PHP+products;Exploring+AI-powered+developer+tools;Turning+complex+workflows+into+simple+APIs" alt="Animated introduction" />
 </a>
 
-<br/>
-
-<!-- Primary links -->
 <p>
-  <a href="https://shamimhossain.dev"><img src="https://img.shields.io/badge/shamimhossain.dev-0A0A0A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Website" /></a>
-  <a href="https://zenithframework.com"><img src="https://img.shields.io/badge/Zenith_Framework-1B2A4A?style=for-the-badge&logo=php&logoColor=white" alt="Zenith Framework" /></a>
-  <a href="mailto:shamimstack@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://shamimhossain.dev"><img src="https://img.shields.io/badge/PORTFOLIO-shamimhossain.dev-101827?style=for-the-badge&logo=googlechrome&logoColor=7DE3FF" alt="Portfolio" /></a>
+  <a href="mailto:shamimstack@gmail.com"><img src="https://img.shields.io/badge/CONTACT-EMAIL-101827?style=for-the-badge&logo=gmail&logoColor=FF8A8A" alt="Email" /></a>
+  <a href="https://github.com/shamimwhois?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-PROJECTS-101827?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Projects" /></a>
 </p>
 
-<!-- Social -->
-<p>
-  <a href="https://github.com/shamimwhois"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/shamimwhois"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://x.com/shamimwhois"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <a href="https://dev.to/shamimwhois"><img src="https://img.shields.io/badge/DEV-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="DEV" /></a>
-</p>
-
-<!-- Live counters -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=shamimwhois&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/shamimwhois?label=Followers&style=flat-square&color=0e75b6&logo=github" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/shamimwhois?label=Stars&style=flat-square&color=6B46C1&logo=github" alt="Stars" />
-  <img src="https://img.shields.io/badge/Focus-PHP%20%C2%B7%20Laravel%20%C2%B7%20AI-1B2A4A?style=flat-square" alt="Focus" />
-</p>
+<img src="https://komarev.com/ghpvc/?username=shamimwhois&label=PROFILE%20VIEWS&color=123B55&style=flat-square" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/shamimwhois?label=FOLLOWERS&style=flat-square&color=6D4AFF&logo=github" alt="GitHub followers" />
 
 </div>
 
@@ -45,339 +21,160 @@
 
 <div align="center">
 
-### 👨‍💻 About Me
+### ENGINEERING, WITH INTENTION.
 
-**Senior Fullstack Developer & Architect** — I design and build systems end to end.
+I build software that makes complex things feel simple.
+
+**Backend engineering · Laravel ecosystem · AI-enabled tooling · Automation**
 
 </div>
 
-I architect and build **high-performance backend systems**, elegant **RESTful & GraphQL APIs**, and scalable web applications using **pure PHP**, the **Laravel ecosystem**, and my own lightweight **Zenith Framework**.
+## 01 / About
 
-I also specialize in **AI integration**, **OSINT automation**, and **Model Context Protocol (MCP)** tooling — bridging the gap between traditional web development and next-generation AI-powered applications.
+I'm a software engineer focused on reliable backend systems, useful developer experiences, and products that solve real problems. My core stack is PHP and Laravel, supported by modern frontend tooling, databases, queues, and automation.
+
+Lately, I'm spending a lot of time on storage infrastructure, AI integrations, agent-assisted engineering workflows, and the details that make software dependable: clear contracts, secure boundaries, good tests, and useful documentation.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-
-**🔭 Currently working on**
-Zenith Framework v2 · MCP servers · AI-first Laravel packages
-
-**🌱 Deepening knowledge in**
-Swoole · LLM integration · Browser-based development (Liminal)
-
-**💬 Ask me about**
-PHP internals · Laravel performance · Framework design · API architecture · AI SDKs · MCP protocol
-
+      <strong>BUILD</strong><br />
+      Laravel applications, packages, APIs, and backend services.
     </td>
     <td width="50%" valign="top">
-
-**🧪 Zenith Framework**
-[zenithframework.com](https://zenithframework.com) · [lang.zenithframework.com](https://lang.zenithframework.com)
-
-**📫 Reach me**
-`shamimstack@gmail.com` · `shamimwhois@gmail.com`
-
-**🌐 Domains**
-[shamimhossain.dev](https://shamimhossain.dev) · [shamim.uk](https://shamim.uk) · [shamim.it](https://shamim.it)
-[shamim.help](https://shamim.help) · [shamimstack.com](https://shamimstack.com) · [shamimhossain.com.bd](https://shamimhossain.com.bd)
-
+      <strong>CONNECT</strong><br />
+      AI providers, local LLMs, MCP tools, and external platforms.
     </td>
   </tr>
-</table>
-
-<!-- What I do, at a glance -->
-<table align="center">
   <tr>
-    <td align="center" width="25%">
-      <b>⚙️ Backend</b><br/>
-      <sub>High-throughput services,<br/>queueing, caching layers</sub>
+    <td width="50%" valign="top">
+      <strong>IMPROVE</strong><br />
+      Performance, security, reliability, and developer experience.
     </td>
-    <td align="center" width="25%">
-      <b>🔌 APIs</b><br/>
-      <sub>REST &amp; GraphQL,<br/>versioning, contracts</sub>
-    </td>
-    <td align="center" width="25%">
-      <b>🏗️ Architecture</b><br/>
-      <sub>Domain boundaries,<br/>framework design</sub>
-    </td>
-    <td align="center" width="25%">
-      <b>🤖 AI</b><br/>
-      <sub>LLM integration,<br/>MCP tooling</sub>
+    <td width="50%" valign="top">
+      <strong>AUTOMATE</strong><br />
+      CI/CD pipelines, queues, repeatable workflows, and engineering tools.
     </td>
   </tr>
 </table>
 
----
+## 02 / Current focus
+
+<div align="center">
+  <a href="https://github.com/shamimwhois/storix">
+    <img src="https://img.shields.io/badge/FEATURED_BUILD-STORIX-0D1726?style=for-the-badge&logo=files&logoColor=7DE3FF" alt="Featured build: Storix" />
+  </a>
+</div>
+
+**Storix — One API. Every Storage.**
+
+A provider-neutral, driver-based storage and transfer layer for Laravel. I'm working through the foundations of resilient file workflows: chunking, integrity verification, resumability, recovery, and clear driver capabilities.
+
+<p>
+  <a href="https://github.com/shamimwhois/storix"><img src="https://img.shields.io/badge/Repository-View%20Storix-17263A?style=flat-square&logo=github" alt="Storix repository" /></a>
+  <a href="https://shamimwhois.github.io/storix/"><img src="https://img.shields.io/badge/Documentation-Read%20the%20docs-17263A?style=flat-square&logo=gitbook" alt="Storix documentation" /></a>
+</p>
+
+<sub>Active development — the repository roadmap and CI are the source of truth for implementation status.</sub>
+
+## 03 / Selected work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📦 Storix</h3>
+      <sub>STORAGE INFRASTRUCTURE · PHP · LARAVEL</sub>
+      <p>One provider-neutral API for file storage, transfer orchestration, and integrity-aware workflows.</p>
+      <a href="https://github.com/shamimwhois/storix">Repository ↗</a>
+      &nbsp;·&nbsp;
+      <a href="https://shamimwhois.github.io/storix/">Docs ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧭 Portfolio</h3>
+      <sub>PRODUCT ENGINEERING · LIVEWIRE · TAILWIND</sub>
+      <p>A personal portfolio and management experience built with a futuristic HUD-inspired visual direction.</p>
+      <a href="https://github.com/shamimwhois/portfolio">Repository ↗</a>
+      &nbsp;·&nbsp;
+      <a href="https://shamimhossain.dev">Website ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌐 /dev/null</h3>
+      <sub>OPEN SOURCE · PHP · DEVELOPER COMMUNITY</sub>
+      <p>A social network for developers, with GitHub sign-in, developer discovery, and a place to share commits.</p>
+      <a href="https://github.com/shamimwhois/dev-null.sh">Repository ↗</a>
+      &nbsp;·&nbsp;
+      <a href="https://dev-null.sh">Website ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧪 Experiments & labs</h3>
+      <sub>PROTOTYPING · TOOLING · OPEN SOURCE</sub>
+      <p>Small explorations in developer tooling, interface systems, automation, and practical software architecture.</p>
+      <a href="https://github.com/shamimwhois?tab=repositories">Browse repositories ↗</a>
+    </td>
+  </tr>
+</table>
+
+## 04 / Technology
 
 <div align="center">
 
-### 🛠️ Tech Stack & Tools
-
-**Core & Backend**
+**BACKEND & FRAMEWORKS**
 
 <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-<img src="https://img.shields.io/badge/PHP_8.4+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.4" />
 <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
-<img src="https://img.shields.io/badge/Zenith-1B2A4A?style=for-the-badge&logo=php&logoColor=white" alt="Zenith" />
-<img src="https://img.shields.io/badge/Swoole-7B68EE?style=for-the-badge&logo=php&logoColor=white" alt="Swoole" />
+<img src="https://img.shields.io/badge/Livewire-FB70A9?style=for-the-badge&logo=livewire&logoColor=white" alt="Livewire" />
 <img src="https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white" alt="Composer" />
 
-**Data & Caching**
+**FRONTEND & EXPERIENCE**
 
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/Alpine.js-8BC0D0?style=for-the-badge&logo=alpinedotjs&logoColor=black" alt="Alpine.js" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+
+**DATA & INFRASTRUCTURE**
+
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
 <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-<img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch" />
-
-**Infra & DevOps**
-
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-<img src="https://img.shields.io/badge/PHPUnit-3C3C3C?style=for-the-badge&logo=php&logoColor=white" alt="PHPUnit" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
 
-**AI & Protocol**
+**AI & INTEGRATION**
 
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-<img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="MCP" />
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
-<img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL" />
-
-**Frontend (where needed)**
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+<img src="https://img.shields.io/badge/Ollama-111111?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
+<img src="https://img.shields.io/badge/MCP-111111?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol" />
+<img src="https://img.shields.io/badge/REST_APIs-0D9488?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
 
 </div>
 
----
+## 05 / GitHub activity
 
 <div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shamimwhois&show_icons=true&hide_border=true&bg_color=0D1726&title_color=7DE3FF&icon_color=A78BFA&text_color=C9D4E5&rank_icon=github" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shamimwhois&layout=compact&hide_border=true&bg_color=0D1726&title_color=7DE3FF&text_color=C9D4E5&langs_count=6" alt="Most used languages" />
+  <br />
+  <img width="80%" src="https://streak-stats.demolab.com?user=shamimwhois&hide_border=true&background=0D1726&ring=7DE3FF&fire=A78BFA&currStreakLabel=7DE3FF&sideLabels=C9D4E5&dates=8996AA" alt="GitHub contribution streak" />
+</div>
 
-### 📈 GitHub Stats & Visuals
+## 06 / Connect
 
+I'm interested in thoughtful engineering conversations, open-source collaboration, Laravel and PHP architecture, AI integrations, and tools that improve how developers build software.
+
+<div align="center">
+  <a href="https://shamimhossain.dev"><img src="https://img.shields.io/badge/WEBSITE-shamimhossain.dev-101827?style=for-the-badge&logo=googlechrome&logoColor=7DE3FF" alt="Website" /></a>
+  <a href="mailto:shamimstack@gmail.com"><img src="https://img.shields.io/badge/EMAIL-shamimstack%40gmail.com-101827?style=for-the-badge&logo=gmail&logoColor=FF8A8A" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/shamimwhois"><img src="https://img.shields.io/badge/LINKEDIN-Connect-101827?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+  <a href="https://github.com/shamimwhois"><img src="https://img.shields.io/badge/GITHUB-Follow-101827?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" /></a>
 </div>
 
 <div align="center">
-
-<table border="0">
-  <tr>
-    <td align="center" width="50%">
-      <img width="100%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=shamimwhois&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats" />
-    </td>
-    <td align="center" width="50%">
-      <img width="100%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=shamimwhois&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8&count_private=true" alt="Top Languages" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <img width="100%" src="https://streak-stats.demolab.com/?user=shamimwhois&theme=tokyonight&hide_border=true&border_radius=12&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shamimwhois&theme=tokyonight" alt="Profile Summary" />
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-**Top Languages, by repository**
-
-<a href="https://github.com/shamimwhois?tab=repositories">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shamimwhois&theme=tokyonight" alt="Repos per language" />
-</a>
-
-<br/><br/>
-
-**Contribution Graph**
-
-<a href="https://github.com/shamimwhois?tab=activity">
-  <img width="100%" src="https://ghchart.rshah.org/0E75B6/shamimwhois" alt="Contribution Graph" />
-</a>
-
+  <br />
+  <sub>DESIGNING SYSTEMS · SHIPPING SOFTWARE · LEARNING IN PUBLIC</sub>
+  <br /><br />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6D4AFF,55:123B55,100:07111F&height=110&section=footer" alt="Footer visual" />
 </div>
-
----
-
-<div align="center">
-
-### 🚀 Featured Projects
-
-</div>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-
-#### ⚡ Zenith Framework
-*Creator & Maintainer · [zenithframework.com](https://zenithframework.com)*
-
-A high-performance, lightweight PHP framework engineered for **microservices**, **modern web apps**, and **async workloads**.
-
-- ✅ Blazing-fast routing — PSR-7 & PSR-15 compatible
-- ✅ Native async support (Swoole / OpenSwoole)
-- ✅ Multilingual ready via `lang.zenithframework.com`
-- ✅ Production-proven across several SaaS platforms
-
-```bash
-composer create-project zenithframework/skeleton my-app
-```
-
-    </td>
-    <td width="50%" valign="top">
-
-#### 🤖 Laravel AI & MCP Ecosystem
-*AI-first packages bridging Laravel and LLMs*
-
-| Package | Account |
-| :--- | :--- |
-| **laravel-gpt** | @laravelgpt |
-| **Laravel-Local-LLM-SDK** | @shamimlaravel |
-| **laravel13-mcp-server** | @gsmui |
-| **liminal** | @pkgmcp |
-
-GPT-4o / o1 integration, Assistants API v2, prompt caching, Ollama & LM Studio support, and in-browser Laravel preview.
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
-#### 📦 Laravel Infrastructure Packages
-
-| Package | Account |
-| :--- | :--- |
-| **tgsdk** — Telegram-backed filesystem driver | @shamimlaravel |
-| **youtube-cloud-storage** — steganographic storage | @shamimlaravel |
-| **laravel-cms-installer** — guided CMS install wizard | @shamimstack |
-| **wwwpay** — lightweight payments for Laravel | @shamimlaravel |
-
-    </td>
-    <td width="50%" valign="top">
-
-#### 🔐 Security & OSINT Research
-
-| Repository | Account |
-| :--- | :--- |
-| **WhatsApp-extension-manipulation-PoC** | @ufstool |
-| **cursor-free-vip** *(educational research)* | @ufstool |
-| **sass-product-license-manager** | @gsmui |
-
-Responsible-disclosure and proof-of-concept work in the Android / tooling security space.
-
-    </td>
-  </tr>
-</table>
-
----
-
-<div align="center">
-
-### 🌐 GitHub Ecosystem & Specialized Profiles
-
-<sub>Strategic network of accounts, each focused on a distinct area of expertise</sub>
-
-</div>
-
-<table align="center">
-  <tr>
-    <th align="left">Account</th>
-    <th align="left">Focus Area</th>
-    <th align="left">Key Repositories</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/laravelgpt"><b>@laravelgpt</b></a></td>
-    <td>AI-Powered Laravel & MCP</td>
-    <td><code>laravel-gpt</code>, MCP servers, AI SDKs</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/shamimlaravel"><b>@shamimlaravel</b></a></td>
-    <td>Laravel Packages & Tools</td>
-    <td><code>tgsdk</code>, <code>youtube-cloud-storage</code>, <code>wwwpay</code>, <code>laravel-13-skills</code></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/shamimstack"><b>@shamimstack</b></a></td>
-    <td>Laravel Infrastructure</td>
-    <td><code>laravel-cms-installer</code>, <code>youtube-cloud-storage</code></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gsmui"><b>@gsmui</b></a></td>
-    <td>GSM Tools & UI Libraries</td>
-    <td><code>laravel13-fullstack-mcp-server</code>, <code>sass-product-license-manager</code>, <code>Gsmcss</code></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/ufstool"><b>@ufstool</b></a></td>
-    <td>Security & OSINT Research</td>
-    <td><code>WhatsApp-extension-manipulation-PoC</code>, <code>cursor-free-vip</code></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/pkgmcp"><b>@pkgmcp</b></a></td>
-    <td>MCP Protocol & Liminal</td>
-    <td><code>liminal</code></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gsmsdk"><b>@gsmsdk</b></a></td>
-    <td>GSM / SMS SDKs</td>
-    <td>SMS modem libraries, AT command tools</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/GsmWhale"><b>@GSMWhale</b></a></td>
-    <td>GSM Firmware & Embedded</td>
-    <td>Low-level GSM codecs, microcontroller projects</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/shamimloop"><b>@shamimloop</b></a></td>
-    <td>Experimental / Labs</td>
-    <td>Capstone projects, PHP-heavy prototypes</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/shamimvue"><b>@shamimvue</b></a></td>
-    <td>Frontend / Vue</td>
-    <td>UI experiments and component work</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/gsmcodex"><b>@gsmcodex</b></a></td>
-    <td>GSM Reference & Docs</td>
-    <td>Codecs, protocol references</td>
-  </tr>
-</table>
-
----
-
-<div align="center">
-
-### 🤝 Let's Connect
-
-I'm always open to discussing **Laravel architecture**, **PHP 8.4+ performance**, **AI integration**, or open-source collaborations. Whether you're a recruiter, a fellow developer, or just want to say hi — reach out.
-
-<br/>
-
-<a href="mailto:shamimstack@gmail.com"><img src="https://img.shields.io/badge/shamimstack@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://shamimhossain.dev"><img src="https://img.shields.io/badge/shamimhossain.dev-0A0A0A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Website" /></a>
-<a href="https://www.shamim.uk"><img src="https://img.shields.io/badge/shamim.uk-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="shamim.uk" /></a>
-<a href="https://github.com/shamimwhois"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-
-<br/><br/>
-
-<i>"Code is poetry, but clean architecture is prose. AI is the next chapter."</i>
-
-</div>
-
-<!-- Footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0E75B6,50:6B46C1,100:0E75B6&height=120&section=footer&animation=fadeIn" alt="footer" />
-
-<!--
-  Note: the LinkedIn / X / DEV profile links use @shamimwhois handles —
-  update or remove any that don't exist yet.
-
-  Domains listed in "About Me" are the confirmed set:
-    shamimhossain.dev · shamim.uk · shamim.it
-    shamim.help · shamimstack.com · shamimhossain.com.bd
-  (shamim.dev and shamimwhois.com are NOT owned and must not be listed.)
--->
