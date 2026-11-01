@@ -14,6 +14,8 @@
 <a href="https://github.com/shamimwhois/shamimwhois/actions/workflows/profile-ci.yml"><img src="https://github.com/shamimwhois/shamimwhois/actions/workflows/profile-ci.yml/badge.svg?branch=main" alt="Profile CI status" /></a>
 <a href="https://github.com/shamimwhois?tab=followers"><img src="https://img.shields.io/github/followers/shamimwhois?label=FOLLOWERS&style=flat-square&color=6D4AFF&logo=github" alt="GitHub followers — live public account metric" /></a>
 
+<a href="https://github.com/shamimwhois"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=850&color=7DE3FF&center=true&vCenter=true&width=760&height=42&lines=Building+reliable+backend+systems;Crafting+Laravel+and+PHP+products;Engineering+AI-powered+developer+tools;Automating+complex+engineering+workflows" alt="Animated engineering headline" /></a>
+
 </div>
 
 ## 01 / About
