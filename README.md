@@ -9,6 +9,7 @@
   <a href="https://www.linkedin.com/in/shamimwhois">LinkedIn</a>
 </p>
 
+<a href="https://github.com/shamimwhois/shamimwhois/actions/workflows/profile-ci.yml"><img src="https://github.com/shamimwhois/shamimwhois/actions/workflows/profile-ci.yml/badge.svg?branch=main" alt="Profile CI status" /></a>
 <img src="https://komarev.com/ghpvc/?username=shamimwhois&label=Profile%20views&color=64748b&style=flat" alt="Profile views" />
 
 </div>
@@ -47,6 +48,18 @@ A provider-neutral storage and transfer package for Laravel, designed around rep
 <img src="https://skillicons.dev/icons?i=php,laravel,livewire,js,ts,tailwind,alpine,mysql,postgres,redis,docker,linux,githubactions&perline=7" alt="Technologies: PHP, Laravel, Livewire, JavaScript, TypeScript, Tailwind CSS, Alpine.js, MySQL, PostgreSQL, Redis, Docker, Linux and GitHub Actions" />
 
 </div>
+
+## GitHub Actions
+
+The profile repository runs lightweight checks on every push and pull request to `main`. The workflow validates README sections and diagram presence, then checks the landing page HTML structure and in-page links.
+
+<div align="center">
+
+<img src="./assets/github-actions-workflow.svg" width="100%" alt="Animated GitHub Actions workflow: push or pull request, GitHub Actions, profile quality checks, and pass or fail result" />
+
+</div>
+
+[View workflow runs](https://github.com/shamimwhois/shamimwhois/actions) · [Workflow source](.github/workflows/profile-ci.yml)
 
 ## GitHub activity
 
