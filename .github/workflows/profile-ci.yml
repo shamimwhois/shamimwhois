@@ -2,13 +2,14 @@ name: Profile CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, "fix/**"]
+    paths-ignore:
+      - "assets/github-stats/**"
   pull_request:
     branches: [main]
+  schedule:
+    - cron: "20 4 * * *"
   workflow_dispatch:
-
-permissions:
-  contents: read
 
 concurrency:
   group: profile-ci-${{ github.ref }}
@@ -16,10 +17,11 @@ concurrency:
 
 jobs:
   validate:
-    name: Validate profile files
+    name: Validate profile and stats generator
     runs-on: ubuntu-latest
     timeout-minutes: 5
-
+    permissions:
+      contents: read
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,76 +31,119 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate README and workflow diagram
+      - name: Validate profile content, links, and stats generator
         run: |
-          python - <<'PY'
-          from pathlib import Path
-          import sys
-
-          readme = Path("README.md").read_text(encoding="utf-8")
-          required_sections = ("## About", "## Featured project", "## Selected work",
-                               "## Technologies", "## GitHub Actions")
-          missing = [section for section in required_sections if section not in readme]
-          diagram = Path("assets/github-actions-workflow.svg")
-
-          if missing:
-              print("Missing README sections:", ", ".join(missing))
-              sys.exit(1)
-          if not diagram.is_file() or diagram.stat().st_size < 500:
-              print("Workflow diagram is missing or unexpectedly small.")
-              sys.exit(1)
-          if "github-actions-workflow.svg" not in readme:
-              print("README does not reference the workflow diagram.")
-              sys.exit(1)
-
-          print("README structure and workflow diagram: OK")
-          PY
-
-      - name: Validate landing page HTML
-        run: |
+          python -m py_compile scripts/generate_github_stats.py
           python - <<'PY'
           from html.parser import HTMLParser
           from pathlib import Path
           import sys
+          import re
 
-          class ProfileHTMLValidator(HTMLParser):
+          readme = Path("README.md").read_text(encoding="utf-8")
+          page = Path("index.html").read_text(encoding="utf-8")
+          required_readme = (
+              "## 01 / About", "## 02 / Featured work",
+              "## 03 / GitHub ecosystem & specialized profiles",
+              "## 04 / Domains & web properties", "## 05 / Technology toolkit",
+              "## 06 / Engineering workflow", "## 07 / GitHub Stats & Visuals",
+              "assets/github-stats/overview.svg", "assets/github-stats/languages.svg",
+              "assets/github-stats/activity.svg", "scripts/generate_github_stats.py",
+          )
+          accounts = (
+              "https://github.com/shamimwhois", "https://github.com/laravelgpt",
+              "https://github.com/shamimlaravel", "https://github.com/shamimstack",
+              "https://github.com/gsmui", "https://github.com/gsmcodex", "https://github.com/ufstool",
+              "https://github.com/pkgmcp", "https://github.com/gsmsdk",
+              "https://github.com/GsmWhale", "https://github.com/shamimloop",
+              "https://github.com/shamimvue", "https://github.com/ZenithFramework",
+              "https://github.com/LaravelGpt",
+          )
+          domains = (
+              "https://shamimhossain.dev", "https://shamim.dev", "https://shamim.uk",
+              "https://shamim.it", "https://shamim.help", "https://shamimstack.com",
+              "https://shamimhossain.com.bd", "https://shamimhossain.com",
+              "https://shamimcoder.com", "https://shamimdev.dev",
+              "https://zenithframework.com", "https://lang.zenithframework.com",
+              "https://dev-null.sh", "https://gsmwhale.com", "https://pkgmcp.com",
+              "https://shamimwhois.github.io/storix/",
+          )
+          errors = [f"Missing README item: {item}" for item in required_readme if item not in readme]
+          readme_links = set(re.findall(r"\[[^\]]+\]\((https?://[^)]+)\)", readme))
+          required_urls = set(accounts + domains)
+          errors += [f"Missing README account/domain link target: {url}" for url in sorted(required_urls - readme_links)]
+
+          class Parser(HTMLParser):
               def __init__(self):
                   super().__init__(convert_charrefs=True)
-                  self.ids = set()
-                  self.duplicates = []
-                  self.anchors = set()
-
+                  self.ids, self.duplicates, self.anchors, self.links, self.images = set(), [], set(), set(), set()
               def handle_starttag(self, tag, attrs):
                   attrs = dict(attrs)
-                  element_id = attrs.get("id")
-                  if element_id:
-                      if element_id in self.ids:
-                          self.duplicates.append(element_id)
-                      self.ids.add(element_id)
-                  href = attrs.get("href", "")
+                  ident = attrs.get("id")
+                  if ident:
+                      if ident in self.ids:
+                          self.duplicates.append(ident)
+                      self.ids.add(ident)
+                  href, src = attrs.get("href", ""), attrs.get("src", "")
                   if href.startswith("#") and len(href) > 1:
                       self.anchors.add(href[1:])
+                  if href.startswith("https://"):
+                      self.links.add(href)
+                  if src:
+                      self.images.add(src)
 
-          html_path = Path("index.html")
-          source = html_path.read_text(encoding="utf-8")
-          parser = ProfileHTMLValidator()
-          parser.feed(source)
+          parser = Parser()
+          parser.feed(page)
           parser.close()
-
-          missing_anchors = sorted(parser.anchors - parser.ids)
-          errors = []
-          if "<!doctype html>" not in source.lower():
-              errors.append("Missing HTML5 doctype")
-          if "<title>" not in source.lower():
-              errors.append("Missing document title")
+          required_ids = {"about", "projects", "accounts", "domains", "stats", "stack", "contact"}
+          required_assets = {"assets/github-stats/overview.svg", "assets/github-stats/languages.svg", "assets/github-stats/activity.svg"}
+          errors += [f"Missing HTML section: {x}" for x in sorted(required_ids - parser.ids)]
+          errors += [f"Broken HTML anchor: {x}" for x in sorted(parser.anchors - parser.ids)]
+          errors += [f"Missing HTML asset: {x}" for x in sorted(required_assets - parser.images)]
+          errors += [f"Missing HTML account/domain link: {x}" for x in accounts + domains if x not in parser.links]
+          for path in ("assets/github-stats/overview.svg", "assets/github-stats/languages.svg", "assets/github-stats/activity.svg"):
+              if not Path(path).is_file() or Path(path).stat().st_size < 100:
+                  errors.append(f"Missing or invalid generated visual placeholder: {path}")
           if parser.duplicates:
-              errors.append("Duplicate IDs: " + ", ".join(parser.duplicates))
-          if missing_anchors:
-              errors.append("Broken in-page links: " + ", ".join(missing_anchors))
-
+              errors.append("Duplicate HTML IDs: " + ", ".join(parser.duplicates))
           if errors:
               print("\n".join(errors))
               sys.exit(1)
-
-          print("Landing page HTML structure and in-page links: OK")
+          print("Profile sections, historical links, first-party visuals, and generator: OK")
           PY
+
+  refresh-stats:
+    name: Refresh first-party GitHub stats
+    needs: validate
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout selected branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate SVG visuals and JSON data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_github_stats.py
+
+      - name: Commit refreshed stats when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats/
+          if git diff --cached --quiet; then
+            echo "Stats are already up to date."
+          else
+            git commit -m "chore: refresh GitHub profile stats"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
