@@ -17,7 +17,9 @@
     a{color:inherit;text-decoration:none}
     a:focus-visible{outline:2px solid var(--mint);outline-offset:4px;border-radius:6px}
     .container{width:min(var(--max),calc(100% - 48px));margin-inline:auto}
-    header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:76px;border-bottom:1px solid var(--line);background:rgba(7,17,31,.82);backdrop-filter:blur(18px)}
+    header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:76px;border-bottom:1px solid var(--line);background:rgba(7,17,31,.82);backdrop-filter:blur(18px);overflow:hidden}
+    header::after{position:absolute;right:0;bottom:0;left:0;height:2px;background:linear-gradient(90deg,transparent,var(--mint),var(--blue),var(--violet),transparent);background-size:220% 100%;content:"";animation:headerSweep 7s linear infinite;pointer-events:none}
+    @keyframes headerSweep{to{background-position:220% 0}}
     .brand{font-size:14px;font-weight:850;letter-spacing:-.04em;white-space:nowrap}.brand b{color:var(--mint)}
     nav{display:flex;align-items:center;gap:22px;overflow-x:auto;color:var(--muted);font-size:11px;font-weight:700;white-space:nowrap;scrollbar-width:none}
     nav::-webkit-scrollbar{display:none}nav a:hover,.link:hover{color:var(--mint)}
@@ -25,7 +27,8 @@
     .hero:before{position:absolute;z-index:-1;top:15%;left:-10%;width:480px;height:320px;border-radius:50%;background:rgba(54,163,160,.07);filter:blur(80px);content:""}
     .eyebrow,.kicker{color:var(--mint);font-size:10px;font-weight:850;letter-spacing:.17em;text-transform:uppercase}
     h1{margin:17px 0 18px;font-size:clamp(48px,7.4vw,82px);line-height:.99;letter-spacing:-.075em}
-    h1 span{background:linear-gradient(100deg,var(--mint),var(--blue) 60%,var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+    h1 span{background:linear-gradient(100deg,var(--mint),var(--blue) 60%,var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent;background-size:220% 100%;animation:titleShimmer 7s ease-in-out infinite}
+    @keyframes titleShimmer{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
     .lead{max-width:660px;margin:0;color:var(--muted);font-size:17px}
     .roles{min-height:27px;margin:22px 0 28px;color:var(--mint);font-size:12px;font-weight:750}
     .actions,.contact{display:flex;flex-wrap:wrap;gap:10px}
@@ -178,7 +181,7 @@
           <a class="stats-card" href="https://github.com/shamimwhois?tab=repositories"><img src="assets/github-stats/languages.svg" alt="Primary language counts across public repositories"></a>
           <a class="stats-card" href="https://github.com/shamimwhois?tab=activity"><img src="assets/github-stats/activity.svg" alt="Recent public GitHub events, not a complete contribution history"></a>
         </div>
-        <p class="stats-footnote">Data source: official GitHub REST API. Repository languages count primary-language labels, not source-code bytes. Public activity reflects the Events API's limited recent-event window; no contribution streak or private activity is fabricated. <a href="https://github.com/shamimwhois/shamimwhois/actions/workflows/profile-ci.yml">View stats refresh workflow ↗</a> · <a href="assets/github-stats/stats.json">Raw stats JSON ↗</a></p>
+        <p class="stats-footnote">Profile views are not available through the GitHub public API. Komarev counts image requests rather than verified unique visitors, so this badge is not shown as real analytics. Data source: official GitHub REST API. Repository languages count primary-language labels, not source-code bytes. Public activity reflects the Events API's limited recent-event window; no contribution streak or private activity is fabricated. <a href="https://github.com/shamimwhois/shamimwhois/actions/workflows/profile-ci.yml">View stats refresh workflow ↗</a> · <a href="assets/github-stats/stats.json">Raw stats JSON ↗</a></p>
       </section>
       <section id="stack">
         <div class="section-top"><div><div class="number">06 / TOOLKIT</div><h2>Technology stack</h2></div></div>

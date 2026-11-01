@@ -1,6 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:07111F,45:123B55,100:6D4AFF&height=220&section=header&text=MD%20SHAMIM%20HOSSAIN&fontSize=44&fontColor=F5F7FF&fontAlignY=36&desc=SOFTWARE%20ENGINEER%20%E2%80%A2%20PHP%20%E2%80%A2%20LARAVEL%20%E2%80%A2%20AI&descAlignY=60&descSize=15&animation=fadeIn" alt="Md Shamim Hossain — Software Engineer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:07111F,45:123B55,100:6D4AFF&height=230&section=header&text=MD%20SHAMIM%20HOSSAIN&fontSize=46&fontColor=F5F7FF&fontAlignY=36&desc=SOFTWARE%20ENGINEER%20%E2%80%A2%20PHP%20%E2%80%A2%20LARAVEL%20%E2%80%A2%20AI%20SYSTEMS&descAlignY=60&descSize=15&animation=twinkling" alt="Animated header — Md Shamim Hossain, Software Engineer" />
+
+<a href="https://github.com/shamimwhois"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=850&color=7DE3FF&center=true&vCenter=true&width=760&height=42&lines=Building+reliable+backend+systems;Crafting+Laravel+and+PHP+products;Engineering+AI-powered+developer+tools;Automating+complex+engineering+workflows" alt="Animated engineering headline" /></a>
 
 <p>
   <a href="https://shamimhossain.dev">WEBSITE</a> ·
@@ -10,6 +12,9 @@
 </p>
 
 <a href="https://github.com/shamimwhois/shamimwhois/actions/workflows/profile-ci.yml"><img src="https://github.com/shamimwhois/shamimwhois/actions/workflows/profile-ci.yml/badge.svg?branch=main" alt="Profile CI status" /></a>
+<a href="https://github.com/shamimwhois?tab=followers"><img src="https://img.shields.io/github/followers/shamimwhois?label=FOLLOWERS&style=flat-square&color=6D4AFF&logo=github" alt="GitHub followers — live public account metric" /></a>
+
+<a href="https://github.com/shamimwhois"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=850&color=7DE3FF&center=true&vCenter=true&width=760&height=42&lines=Building+reliable+backend+systems;Crafting+Laravel+and+PHP+products;Engineering+AI-powered+developer+tools;Automating+complex+engineering+workflows" alt="Animated engineering headline" /></a>
 
 </div>
 
@@ -17,7 +22,7 @@
 
 I'm a software engineer focused on backend development, Laravel applications, developer tools, and practical AI integrations.
 
-> **Profile views:** GitHub does not expose personal profile-view counts through its public REST API. The former third-party image counter was removed because image requests are not a reliable measure of unique profile visitors.
+> **Profile views:** GitHub does not provide a public profile-view count or API for this metric. The Komarev badge counts image requests (which may be cached or proxied), not verified unique visitors, so it is intentionally excluded rather than displaying misleading data. Reliable visitor analytics can be measured on a website you control, not on GitHub profile pages.
 
 I turn complex requirements into maintainable software, with an emphasis on clear architecture, security, testing, and reliable delivery.
 
